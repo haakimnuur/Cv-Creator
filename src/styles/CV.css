@@ -1,0 +1,95 @@
+.cv-paper {
+  width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.cv-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #333;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cv-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.cv-contact {
+  font-size: 1rem;
+  color: #555;
+}
+
+.separator {
+  margin: 0 0.5rem;
+  color: #aaa;
+}
+
+.cv-section {
+  margin-bottom: 2rem;
+}
+
+.cv-section h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.edu-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.edu-school {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.edu-details {
+  font-size: 1rem;
+  color: #555;
+}
+
+.exp-item {
+  margin-bottom: 1rem;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.exp-company {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.exp-dates {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.exp-position {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.exp-responsibilities {
+  font-size: 0.95rem;
+  color: #555;
+}

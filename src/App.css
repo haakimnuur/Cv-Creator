@@ -1,0 +1,67 @@
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  background: #f7f7f7;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.form-container {
+  background: #fff;
+  height: fit-content;
+  padding: 0 2rem 2em;
+  max-width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-section h2 {
+  color: #333;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #eee;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 1em 0;
+  font-size: 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.preview-container {
+  background: #f9f9f9;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.preview-container p {
+  margin: 0.5rem 0;
+}
+
+.preview-container button {
+  background-color: #28a745;
+}
+
+.preview-container button:hover {
+  background-color: #218838;
+}
